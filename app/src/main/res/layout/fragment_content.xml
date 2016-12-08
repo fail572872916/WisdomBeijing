@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.wisdom.weli.wisdombeijing.view.NoSrollViewPager
+        android:id="@+id/vp_content_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+    </com.wisdom.weli.wisdombeijing.view.NoSrollViewPager>
+
+    <RadioGroup
+        android:id="@+id/rg_content_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/bottom_tab_bg"
+
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_content_fragment_home"
+            style="@style/bottom_tab_style"
+            android:drawableTop="@drawable/button_tab_selete"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/rb_content_fragment_newscenter"
+            style="@style/bottom_tab_style"
+            android:drawableTop="@drawable/button_tab_new_selete"
+            android:text="新闻中心" />
+
+        <RadioButton
+            android:id="@+id/rb_content_fragment_smartservice"
+            style="@style/bottom_tab_style"
+            android:drawableTop="@drawable/button_tab_smartservices_selete"
+
+            android:text="智慧服务" />
+
+        <RadioButton
+            android:id="@+id/rb_content_fragment_govaffairs"
+            style="@style/bottom_tab_style"
+            android:drawableTop="@drawable/button_tab_govaffiar_selete"
+            android:text="政务" />
+
+        <RadioButton
+            android:id="@+id/rb_content_fragment_setting"
+            style="@style/bottom_tab_style"
+            android:drawableTop="@drawable/button_tab_setting_selete"
+            android:text="设置"
+
+            />
+
+    </RadioGroup>
+</LinearLayout>
