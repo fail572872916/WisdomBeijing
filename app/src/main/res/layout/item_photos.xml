@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic_list_item_bg"
+    android:orientation="vertical">
+<ImageView
+    android:id="@+id/im_item_photos"
+    android:layout_width="match_parent"
+
+    android:layout_height="160dp"
+    android:layout_marginTop="20dp"
+    android:scaleType="centerCrop"
+
+
+    />
+    <TextView
+        android:id="@+id/tv_item_photos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="带你看世界各地的厨房"
+       android:singleLine="true"
+        android:textSize="23sp"
+        android:layout_margin="7dp"
+        android:textColor="@android:color/transparent"
+        />
+</LinearLayout>

@@ -97,7 +97,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="e94fdb9d3fadf33c2f536683f082369122472988">
+        sha1="f4fb78919be425f91ebc38a20a6fd096a548f948">
         <dex dex="C:\Users\weli\Desktop\WisdomBeijing\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_2492c2068bf81dd50143c295c9ca07764c964fbb\classes.dex" />
     </item>
     <item
@@ -304,7 +304,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="0f6d2f2208e0c5b5b3b4be33460039e4cd8aeec0">
+        sha1="1f81ee1bf25c1814c370f1ff2f4891c1757b3328">
         <dex dex="C:\Users\weli\Desktop\WisdomBeijing\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f5db26415c0e28a672f8bd1d537945d6976cd94a\classes.dex" />
     </item>
 
